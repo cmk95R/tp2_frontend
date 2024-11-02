@@ -1,0 +1,336 @@
+/*--------------------------------------------------AJUSTES GENERALES--------------------------------------------------*/
+*{
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
+
+h1{
+    letter-spacing: -2px;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/**/
+.navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: rgb(22, 22, 22);
+    color: #f2f2f2;
+}
+
+.navbar p{
+    margin-left: 5%;
+}
+
+.navbar .links{
+    margin: auto;
+}
+  .navbar .links a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+/**/
+
+/*--------------------------------------------------Carrousel--------------------------------------------------*/
+.contenedor-Carrousel{
+    background-image: url(/img/pepe.jpg);
+    display: flex;
+    margin: 0 auto;
+}
+
+.contenedor-Carrousel .contenedor-Informacion{
+    margin: auto;
+    width: 40%;
+    align-items: center;
+    text-align: start;
+    color: whitesmoke;
+}
+
+.contenedor-Carrousel .contenedor-Informacion .titulo{
+    font-weight: 500;
+    font-size: 2.3rem;
+}
+
+.contenedor-Carrousel .contenedor-Informacion span{
+    font-weight: 1000;
+    font-size: 2.5rem;
+}
+
+.contenedor-Carrousel .contenedor-Informacion p{
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.contenedor-Carrousel .contenedor-Informacion input{
+    padding: 10px 25px 10px 25px;
+    background-color: transparent;
+    color: whitesmoke;
+    border: 1px whitesmoke solid;
+    cursor: pointer;
+}
+
+.contenedor-Carrousel .contenedor-Vacio{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+}
+/*------------------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------PRODUCTOS--------------------------------------------------*/
+.contenedor-Productos {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 1rem;
+}
+
+.contenedor-Productos .productos{
+    display: flex;
+}
+
+.contenedor-Productos .productos article{
+    margin: 20px;
+}
+
+.contenedor-Productos .productos article img{
+    width: 150px;
+    height: 150px;
+}
+
+.contenedor-Productos .productos article p{
+    text-align: center;
+    font-weight: bold;
+    font-size: .7rem;
+    
+}
+
+/*--------Recetas--------*/
+.contenedor-Productos .contenedor-Recetas{
+    display: flex;
+    gap: 50px;
+}
+
+.contenedor-Recetas article{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    justify-content: end;
+}
+
+.contenedor-Recetas .receta-1, .receta-2{
+    display: grid;
+background-image: url(/img/pepe.jpg);
+}
+/*
+.contenedor-Recetas .receta-2{
+    background-image: url(img/pepe.jpg);
+}
+*/
+
+.contenedor-Recetas span{
+    font-size: .5rem;
+    padding: 2px 4px 2px 4px;
+    background-color: white;
+}
+
+.contenedor-Recetas h1{
+    font-size: 2rem;
+    color: white;
+}
+
+.contenedor-Recetas input{
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+}
+
+#tarjeta{
+    width: 425px;
+    height: 50px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------CAFES--------------------------------------------------*/
+
+.contenedor-Cafes{
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.contenedor-Cafes h1{
+    font-weight: 1000;
+    font-size: 2.5rem;
+}
+
+.contenedor-Cafes h3{
+    font-size: 1rem;
+    color: brown;
+    font-weight: 100;
+}
+
+.contenedor-Cafes .informacion-Cafe{
+    display: flex;
+    width: 75%;
+    justify-content: center;
+}
+
+.contenedor-Cafes .informacion-Cafe .bloque-Cafe{
+    display: grid;
+    margin: 0;
+}
+
+.contenedor-Cafes .informacion-Cafe .bloque-Cafe h2{
+    color: rgb(224, 140, 91);
+    font-weight: 1000;
+}
+
+.contenedor-Cafes .informacion-Cafe .bloque-Cafe p{
+    color: dimgrey;
+}
+
+.contenedor-Cafes .informacion-Cafe .bloque-Cafe article{
+    width: 100%;
+    max-width: 500px;
+}
+
+.contenedor-Cafes .informacion-Cafe .bloque-Cafe img{
+    margin: 20px 20px 0 20px;
+}
+
+#bloque-1{
+    text-align: end;
+}
+#bloque-2{
+    text-align: start;
+}
+
+
+/*--------------------------------------------------Sucursal--------------------------------------------------*/
+
+
+.contenedor-Sucursal {
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(/img/pepe.jpg);
+    padding: 100px 20px;
+    color: whitesmoke;
+}
+
+.contenedor-Sucursal h2 {
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.contenedor-Sucursal h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: rgb(252, 177, 86);
+    margin: 10px 0;
+}
+
+.contenedor-Sucursal p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contenedor-Sucursal input{
+    background-color: transparent;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------Footer--------------------------------------------------*/
+
+.contenedor-Footer{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    background-color: rgb(22, 22, 22);;
+}
+
+.contenedor-Footer .contenedor-Contacto{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-bottom: 1rem;
+}
+
+.contenedor-Footer .contenedor-Contacto .titulo{
+    color: whitesmoke;
+}
+
+.contenedor-Footer .contenedor-Contacto h5{
+    color: rgb(255, 208, 150);
+}
+
+.contenedor-Footer .contenedor-Contacto .soporte ul{
+    list-style: none;
+}
+
+.contenedor-Footer .contenedor-Contacto .soporte a{
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.contenedor-Footer .contenedor-Contacto .contacto .email{
+    display: flex;
+}
+
+.contenedor-Footer .contenedor-Contacto .contacto .RRSS{
+    text-align: center;    
+}
+
+.contenedor-Footer .contenedor-Contacto .contacto input{
+    padding: 10px 40px 10px 15px;
+    background-color: transparent;
+    border: 1px solid gainsboro;
+    color: gainsboro;
+}
+
+.contenedor-Footer .contenedor-Contacto .contacto button{
+    background-color: rgb(255, 208, 150);
+    border: none;
+    cursor: pointer;
+    padding: 0 15px;
+    font-weight: 700;
+}
+
+.contenedor-Footer .contenedor-Copyright{
+    border-top: 1px solid gainsboro;
+    justify-content: center;
+    display: flex;
+}
+
+.contenedor-Footer .contenedor-Copyright .copyright{
+    width: 50%;
+    color: whitesmoke;
+    font-size: .5rem;
+    font-weight: 100;
+}
+
+.contenedor-Footer .contenedor-Copyright .contenedor-Vacio{
+    width: 45%;
+}
