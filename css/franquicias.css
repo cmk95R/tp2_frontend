@@ -1,0 +1,403 @@
+/* Estilos generales franquicias */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Ajusta este valor según la altura del header */
+}
+
+/*////////////////////////Body////////////////////////////////////////////////*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #ff9f05;
+}
+
+/* Header */
+header {
+  background-color: #000000;
+  padding: 20px 0;
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logo {
+  text-align: left;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.spacer {
+  width: 100px;
+}
+/*//////////////////////// ELEMENTOS DEL TITULO////////////////////////////////////////////////*/
+.text-container {
+  text-align: center; /* Centrar el texto dentro del contenedor */
+  margin-bottom: 20px; /* Espacio debajo del texto */
+  margin-top: 10px;
+  padding-top: 30px;
+}
+
+h1 {
+  font-size: 20px; /* Tamaño del título principal */
+  margin-top: 10px; /* Espacio debajo del título */
+}
+
+h2 {
+  font-size: 30px; /* Tamaño del subtítulo */
+  margin-top: 25px; /* Espacio encima del subtítulo */
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+
+.linea {
+  width: 7%;               /* Ajusta el ancho de la línea en porcentaje o píxeles */
+  border: none;              /* Elimina el borde predeterminado */
+  border-top: 2px solid #333; /* Estilo de la línea: grosor, tipo de borde y color */
+  margin: auto;
+  margin-top: 30px;        /* Centra la línea horizontalmente y ajusta los márgenes */
+  opacity: 0.8;              /* Opcional: ajusta la opacidad para hacerla más sutil */
+}
+
+p {
+  font-size: 10px; /* Tamaño de la oración */
+  margin-top: 30px; /* Espacio encima de la oración */
+  text-align: center; /* Centra el texto de la oración */
+  color: black;
+}
+
+/*//////////////////////// fin ELEMENTOS DEL TITULO////////////////////////////////////////////////*/
+
+
+/*//////////////////////// Estilos del Main ////////////////////////////////////////////////*/
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  height: auto; /* Cambiado de 50vh a auto para mayor flexibilidad */
+  flex-wrap: wrap; /* Permite que los elementos se ajusten a la siguiente fila en pantallas más pequeñas */
+}
+
+.form-left, .form-right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 48%;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+}
+
+.submit-button {
+  width: fit-content; 
+  padding: 10px 20px;
+  background-color: #ff9f05; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: 10px; 
+}
+
+.submit-button:hover {
+  background-color: #ff7c00; 
+}
+
+/*//////////////////////// Fin Estilos del Main ////////////////////////////////////////////////*/
+
+/*//////////////////////// Estilos del FOOTER ////////////////////////////////////////////////*/
+footer {
+  background-color: #000000;
+  
+  
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  
+  padding: 40px;
+  
+}
+
+.footer-left {
+  margin-top: 20px;;
+  width: 250px;
+  height: 250px;
+
+  
+}
+.footer-left a{
+  text-align: left;
+  color: white;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.footer-middle {
+  text-align: left;
+  margin:0 10px;
+  
+}
+
+.footer-middle ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  
+}
+
+.footer-middle p {
+  color: #ff9f05;
+  text-align: left;
+  font-size: 20px;
+  
+}
+
+.footer-middle ul li {
+  margin: 5px 0;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.footer-right {
+  text-align: right;
+  padding-top:20px;
+  
+}
+
+.footer-right h3 {
+  
+ text-align: center;
+}
+
+
+
+.footer-right input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-top:20px;
+  margin-bottom:20px;
+  width: 70%;
+}
+.footer-buttom{
+  padding:20 px;
+  height: 38px;
+  width: px;
+  background-color: #ff9f05;
+  padding: 2px 2px;
+}
+
+.iconos{
+  margin: auto;
+  margin: 10px;  /* Espacio entre las imágenes */
+
+  border-radius: 50%; /* Hace que las imágenes sean circulares (opcional) */
+  justify-content:center;
+  display: flex;               
+ 
+  align-items: center; 
+  
+}
+
+.iconos img{
+  margin-right: 10px;
+}
+.footer-copyright {
+  text-align: center;
+  padding: 20px;
+  padding-left: 250px;
+  border-top: 1px solid #504e4e;
+  text-align: left;
+  color: #ddd;
+}
+
+/*//////////////////////// Fin Estilos del FOOTER ////////////////////////////////////////////////*/
+
+/* Responsividad: */
+@media (max-width: 1080px) {
+  .container-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .form-left, .form-right {
+    width: 100%; /* Ajuste al 100% para pantallas pequeñas */
+    margin-bottom: 20px;
+  }
+  .footer-left{
+        width: 220px;  /* Ancho reducido en tabletas horizontales */
+        height: 220px; /* Altura reducida en tabletas horizontales */
+        margin: 10px 0;
+        text-align: center;
+
+  }
+  
+  .footer-middle, .footer-right {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+}
+
+@media (max-width: 768px) {
+  .container-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .form-left, .form-right {
+    width: 100%;
+  }
+
+  .container-footer {
+    flex-direction: column;
+    align-items: center;
+}
+  .footer-left {
+  width: 200px;  /* Ancho reducido en tabletas verticales */
+  height: 200px; /* Altura reducida en tabletas verticales */
+}
+
+.footer-copyright {
+  padding: 10px;
+}
+}
+
+@media (max-width: 480px) {
+  .text-container {
+    padding-top: 15px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .linea {
+    width: 30%;
+  }
+
+  .form-container {
+    padding: 10px;
+  }
+
+  .footer-left{
+    width: 180px;  /* Ancho reducido en móviles */
+    height: 180px; /* Altura reducida en móviles */
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
+
+
+  .footer-middle, .footer-right {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+.footer-copyright {
+    font-size: 12px;
+    padding: 10px;
+}
+}
+
+@media (max-width: 375px) {
+  .text-container {
+    padding-top: 10px;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .linea {
+    width: 25%;
+  }
+
+  .form-container {
+    padding: 5px;
+  }
+
+  .submit-button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .footer-left{
+    width: 150px;  /* Ancho reducido en móviles pequeños */
+    height: 150px; /* Altura reducida en móviles pequeños */
+    text-align: center;
+  }
+  
+  .footer-middle, .footer-right {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-copyright {
+    font-size: 10px;
+    padding: 5px;
+}
+}

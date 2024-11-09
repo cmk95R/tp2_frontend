@@ -1,0 +1,447 @@
+/* Estilos generales contac */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*////////////////////////Body////////////////////////////////////////////////*/
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #ff9f05;
+  }
+  main {
+    padding: 20px; /* Espaciado interno para el contenido */
+    background-color: #f9f9f9; /* Color de fondo para diferenciar el main */
+    color: #333; /* Color del texto */
+    max-width: 1200px; /* Ancho máximo para mantener el contenido centrado */
+    margin: auto; /* Centra el main en la página */
+    border-radius: 8px; /* Bordes redondeados para suavizar la apariencia */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  }
+  
+  /*////////////////////////Fin del Body////////////////////////////////////////////////*/
+  /* Header */
+  /*//////////////////////// ELEMENTOS DEL TITULO////////////////////////////////////////////////*/
+  .text-container {
+    text-align: center; /* Centrar el texto dentro del contenedor */
+    margin-bottom: 20px; /* Espacio debajo del texto */
+    margin-top: 10px;
+    padding-top: 30px;
+  }
+  
+  .text-container  h1 {
+    font-size: 20px; /* Tamaño del título principal */
+    margin-top: 10px; /* Espacio debajo del título */
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+  
+  .text-container p {
+    font-size: 15px; /* Tamaño del subtítulo */
+    margin-top: 25px; /* Espacio encima del subtítulo */
+    color: rgb(115, 113, 113);
+    text-align: left;
+    font-weight: 700;
+  }
+  
+  .linea {
+    width: 7%;               /* Ajusta el ancho de la línea en porcentaje o píxeles */
+    border: none;              /* Elimina el borde predeterminado */
+    border-top: 2px solid #333; /* Estilo de la línea: grosor, tipo de borde y color */
+    margin: auto;
+    margin-top: 30px;        /* Centra la línea horizontalmente y ajusta los márgenes */
+    opacity: 0.8;              /* Opcional: ajusta la opacidad para hacerla más sutil */
+  }
+  
+  p {
+    font-size: 10px; /* Tamaño de la oración */
+    margin-top: 30px; /* Espacio encima de la oración */
+    text-align: center; /* Centra el texto de la oración */
+    color: black;
+  }
+  
+  /*//////////////////////// fin ELEMENTOS DEL TITULO////////////////////////////////////////////////*/
+  
+  /*//////////////////////// ESTILOS DEL HEADER////////////////////////////////////////////////*/
+  
+  /* Header */
+  header {
+    background-color: #000000;
+    padding: 20px 0;
+  }
+  
+  .container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .logo {
+    text-align: left;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .spacer {
+    width: 100px;
+  }
+  
+  /*//////////////////////// Fin ESTILOS DEL HEADER////////////////////////////////////////////////*/
+  
+  /*//////////////////////// Estilos del Main ////////////////////////////////////////////////*/
+  
+  .form-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    height: auto; /* Cambiar a auto para adaptarse al contenido */
+    min-height: 50vh; /* Esto sigue funcionando para un mínimo de altura */
+    margin-bottom: 40px; /* Agregar margen inferior para evitar cruce con el footer */
+  }
+  
+  .vertical-line {
+    width: 1px; /* Ancho de la línea, ajusta según prefieras */
+    height: 70vh; /* Largo de la línea (100% de la altura de la ventana) */
+    background-color: #333; /* Color de la línea */
+    
+}
+  .form-left, .form-right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 48%;
+  }
+  
+  .input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+  }
+  
+  .input-group textarea {
+    width: 100%; /* Ajusta el ancho del textarea aquí */
+    padding: 10px;
+    border: 1px solid #ddd;
+    resize: vertical; /* Permite cambiar el tamaño verticalmente */
+  }
+  
+  .submit-button {
+    width: fit-content; /* Ajusta el ancho al contenido del botón */
+    padding: 10px 20px;
+    background-color: #ff9f05; /* Cambia el color de fondo a gusto */
+    color: white; /* Color de texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    align-self: flex-start; /* Alinea el botón a la izquierda de la columna */
+    margin-top: 10px; /* Espacio entre el último input y el botón */
+  }
+  
+  .submit-button:hover {
+    background-color: #ff9f05; /* Efecto hover para mejor interacción */
+  }
+
+
+  .social-icons img{
+    margin-bottom: 20px;
+    border-radius: 50%; /* Hace que las imágenes sean circulares (opcional) */
+   
+    
+  }
+  .social-icons{
+    display: flex;
+    flex-direction: column; /* Alinea los íconos en columna, uno sobre otro */
+    align-items: flex-start;
+  }
+
+  
+  /*//////////////////////// Fin Estilos del Main ////////////////////////////////////////////////*/
+  
+  /*//////////////////////// Estilos del FOOTER ////////////////////////////////////////////////*/
+  footer {
+    background-color: #000000;
+    
+    
+  }
+  
+  .container-footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    
+    padding: 40px;
+    
+  }
+  
+  .footer-left {
+    margin-top: 20px;;
+    width: 250px;
+    height: 250px;
+  
+    
+  }
+  .footer-left a{
+    text-align: left;
+    color: white;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+  }
+  
+  .footer-middle {
+    text-align: left;
+    margin:0 10px;
+    
+  }
+  
+  .footer-middle ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    
+  }
+  
+  .footer-middle p {
+    color: #ff9f05;
+    text-align: left;
+    font-size: 20px;
+    
+  }
+  
+  .footer-middle ul li {
+    margin: 5px 0;
+    color: #ffffff;
+    margin-top: 20px;
+  }
+  
+  .footer-right {
+    text-align: right;
+    padding-top:20px;
+    
+  }
+  
+  .footer-right h3 {
+    
+   text-align: center;
+  }
+  
+  
+  
+  .footer-right input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top:20px;
+    margin-bottom:20px;
+    width: 70%;
+  }
+  .footer-buttom{
+    padding:20 px;
+    height: 38px;
+    width: px;
+    background-color: #ff9f05;
+    padding: 2px 2px;
+  }
+  
+  .iconos{
+    margin: auto;
+    margin: 10px;  /* Espacio entre las imágenes */
+  
+    border-radius: 50%; /* Hace que las imágenes sean circulares (opcional) */
+    justify-content:center;
+    display: flex;               
+   
+    align-items: center; 
+    
+  }
+  
+  .iconos img{
+    margin-right: 10px;
+  }
+  .footer-copyright {
+    text-align: center;
+    padding: 20px;
+    padding-left: 250px;
+    border-top: 1px solid #504e4e;
+    text-align: left;
+    color: #ddd;
+  }
+/*//////////////////////// Media Queries //////////////////////////*/
+
+/* Tablet horizontal */
+@media (max-width: 1080px) {
+  .container-header {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .form-container {
+      flex-direction: column;
+      padding: 20px;
+  }
+
+  .form-left, .form-right {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .footer-left{
+        width: 220px;  /* Ancho reducido en tabletas horizontales */
+        height: 220px; /* Altura reducida en tabletas horizontales */
+        margin: 10px 0;
+        text-align: center;
+  }
+  
+  .footer-middle, .footer-right {
+      width: 100%;
+      text-align: center;
+      margin: 10px 0;
+  }
+}
+
+/* Tablet vertical */
+@media (max-width: 768px) {
+  .logo {
+      font-size: 24px;
+  }
+
+  .nav ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+  }
+  .vertical-line {
+    width: 100%; /* Hace que la línea sea horizontal */
+    height: 1px; /* Reduce la altura de la línea */
+}
+
+  .container-footer {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .form-container {
+      padding: 10px;
+  }
+
+  .form-left, .form-right {
+      width: 100%;
+  }
+  .footer-left {
+    width: 200px;  /* Ancho reducido en tabletas verticales */
+    height: 200px; /* Altura reducida en tabletas verticales */
+}
+
+  .footer-copyright {
+      padding: 10px;
+  }
+}
+
+/* Mobile 1 */
+@media (max-width: 480px) {
+  .container-header {
+      padding: 10px;
+  }
+
+  .logo {
+      font-size: 20px;
+  }
+
+  .nav ul {
+      flex-direction: column;
+      gap: 8px;
+  }
+
+  .form-container {
+      flex-direction: column;
+      padding: 10px;
+  }
+
+  .form-left, .form-right {
+      width: 100%;
+  }
+
+  .footer-left{
+        width: 180px;  /* Ancho reducido en móviles */
+        height: 180px; /* Altura reducida en móviles */
+        text-align: center;
+  }
+  
+  .footer-middle, .footer-right {
+      width: 100%;
+      text-align: center;
+  }
+
+  .footer-copyright {
+      font-size: 12px;
+      padding: 10px;
+  }
+}
+
+/* Mobile 2 */
+@media (max-width: 375px) {
+  .container-header {
+      padding: 5px;
+  }
+
+  .logo {
+      font-size: 18px;
+  }
+
+  .nav ul {
+      flex-direction: column;
+      gap: 5px;
+  }
+
+  .form-container {
+      flex-direction: column;
+      padding: 5px;
+  }
+
+  .form-left, .form-right {
+      width: 100%;
+  }
+
+  .footer-left{
+        width: 150px;  /* Ancho reducido en móviles pequeños */
+        height: 150px; /* Altura reducida en móviles pequeños */
+  }
+  .footer-middle, .footer-right {
+      width: 100%;
+      text-align: center;
+  }
+
+  .footer-copyright {
+      font-size: 10px;
+      padding: 5px;
+  }
+}
