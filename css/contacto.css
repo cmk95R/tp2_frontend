@@ -228,17 +228,9 @@
 
 /* Mobile 1 */
 @media (max-width: 480px) {
-  .container-header {
-      padding: 10px;
-  }
 
-  .logo {
-      font-size: 20px;
-  }
-
-  .nav ul {
-      flex-direction: column;
-      gap: 8px;
+  .container-header{
+    flex-direction: column;
   }
 
   .form-container {

@@ -76,6 +76,10 @@ footer {
     padding: 40px;
     
   }
+
+  .container-footer h3{
+    color: rgb(255, 159, 5);
+  }
   
   .footer-left {
     margin-top: 20px;;
