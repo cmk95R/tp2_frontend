@@ -1,0 +1,262 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Ajusta este valor según la altura del header */
+  }
+  /*////////////////////////Body////////////////////////////////////////////////*/
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #ff9f05;
+  }
+  
+  /*////////////////////////Fin del Body////////////////////////////////////////////////*/
+  /* Header */
+  /*//////////////////////// ELEMENTOS DEL TITULO////////////////////////////////////////////////*/
+  .text-container {
+    text-align: center; /* Centrar el texto dentro del contenedor */
+    margin-bottom: 20px; /* Espacio debajo del texto */
+    margin-top: 10px;
+    padding-top: 30px;
+  }
+  
+  h1 {
+    font-size: 20px; /* Tamaño del título principal */
+    margin-top: 10px; /* Espacio debajo del título */
+    
+  }
+  
+  h2 {
+    font-size: 30px; /* Tamaño del subtítulo */
+    margin-top: 25px; /* Espacio encima del subtítulo */
+    color:black;
+    letter-spacing: 2px; 
+    font-weight: 900;
+    
+  }
+  .linea {
+    width: 7%;               /* Ajusta el ancho de la línea en porcentaje o píxeles */
+    border: none;              /* Elimina el borde predeterminado */
+    border-top: 2px solid #333; /* Estilo de la línea: grosor, tipo de borde y color */
+    margin: auto;
+    margin-top: 30px;        /* Centra la línea horizontalmente y ajusta los márgenes */
+    opacity: 0.8;              /* Opcional: ajusta la opacidad para hacerla más sutil */
+  }
+  
+  p {
+    font-size: 1opx; /* Tamaño de la oración */
+    margin-top: 30px; /* Espacio encima de la oración */
+    text-align: center; /* Centra el texto de la oración */
+    color:black;
+  }
+  /*//////////////////////// fin ELEMENTOS DEL TITULO////////////////////////////////////////////////*/
+  
+  /*//////////////////////// ESTILOS DEL HEADER////////////////////////////////////////////////*/
+  
+  /* Header */
+  header {
+    background-color: #000000;
+    padding: 20px 0;
+  }
+  
+  .container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .logo {
+    text-align: left;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     
+    
+  
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .spacer {
+    width: 100px;
+  }
+  
+  
+  
+  /*//////////////////////// Fin ESTILOS DEL HEADER////////////////////////////////////////////////*/
+  
+  /*//////////////////////// Estilos del Main ////////////////////////////////////////////////*/
+  
+  /* Main Content margin: auto;*/
+  .form-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  
+  .form-left, .form-right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 48%;
+  }
+  
+  .input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+  }
+  .submit-button {
+    width: fit-content; /* Ajusta el ancho al contenido del botón */
+    padding: 10px 20px;
+    background-color:#ff9f05; /* Cambia el color de fondo a gusto */
+    color: white; /* Color de texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    align-self: flex-start; /* Alinea el botón a la izquierda de la columna */
+    margin-top: 10px; /* Espacio entre el último input y el botón */
+  }
+  
+  .submit-button:hover {
+    background-color: #ff9f05; /* Efecto hover para mejor interacción *//
+  }
+  
+  /*//////////////////////// Fin Estilos del Main ////////////////////////////////////////////////*/
+  
+  /*//////////////////////// Estilos del FOOTER ////////////////////////////////////////////////*/
+  footer {
+    background-color: #000000;
+    
+    
+  }
+  
+  .container-footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    
+    padding: 40px;
+    
+  }
+  
+  .footer-left {
+    margin-top: 20px;;
+    width: 250px;
+    height: 250px;
+  
+    
+  }
+  .footer-left a{
+    text-align: left;
+    color: white;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+  }
+  
+  .footer-middle {
+    text-align: left;
+    margin:0 10px;
+    
+  }
+  
+  .footer-middle ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    
+  }
+  
+  .footer-middle p {
+    color: #ff9f05;
+    text-align: left;
+    
+  }
+  
+  .footer-middle ul li {
+    margin: 5px 0;
+    color: #ffffff;
+    margin-top: 20px;
+  }
+  
+  .footer-right {
+    text-align: right;
+    padding-top:20px;
+    
+  }
+  
+  .footer-right h3 {
+    
+   text-align: center;
+  }
+  
+  
+  
+  .footer-right input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top:20px;
+    margin-bottom:20px;
+    width: 70%;
+  }
+  .footer-buttom{
+    padding:20 px;
+    height: 38px;
+    width: px;
+    background-color: #ff9f05;
+    padding: 2px 2px;
+  }
+  
+  .iconos{
+    margin: auto;
+    margin: 10px;  /* Espacio entre las imágenes */
+  
+    border-radius: 50%; /* Hace que las imágenes sean circulares (opcional) */
+    justify-content:center;
+    display: flex;               
+   
+    align-items: center; 
+    
+  }
+  
+  .iconos img{
+    margin-right: 10px;
+  }
+  .footer-copyright {
+    text-align: center;
+    padding: 20px;
+    padding-left: 250px;
+    border-top: 1px solid #504e4e;
+    text-align: left;
+    color: #ddd;
+  }
+  
+  /*//////////////////////// Fin Estilos del FOOTER ////////////////////////////////////////////////*/
