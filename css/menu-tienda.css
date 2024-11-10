@@ -49,11 +49,22 @@
         width: 90%;
         margin: 1rem auto;
     }
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar p{
+        text-align: center;
+    }
 }
-
 
 /* Tablet vertical */
 @media (max-width: 768px) {
+
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
 
   .footer-middle, .footer-right {
       margin: auto;

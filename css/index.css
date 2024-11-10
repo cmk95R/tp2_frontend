@@ -237,12 +237,22 @@ body{
 
 /* Tablet horizontal */
 @media (max-width: 1080px) {
-    .container-header{
+    .navbar{
+        flex-direction: column;
         justify-content: center;
+    }
+    .navbar p{
+        text-align: center;
     }
 }
 /* Tablet vertical */
 @media (max-width: 768px) {
+
+
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
       
     .footer-left{
         width: 150px;  /* Ancho reducido en móviles pequeños */

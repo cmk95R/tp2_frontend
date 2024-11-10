@@ -159,10 +159,6 @@
 
 /* Tablet horizontal */
 @media (max-width: 1080px) {
-  .container-header {
-      flex-direction: column;
-      align-items: center;
-  }
 
   .form-container {
       flex-direction: column;
@@ -229,8 +225,13 @@
 /* Mobile 1 */
 @media (max-width: 480px) {
 
-  .container-header{
-    flex-direction: column;
+  .logo {
+      font-size: 20px;
+  }
+
+  .nav ul {
+      flex-direction: column;
+      gap: 8px;
   }
 
   .form-container {
@@ -261,9 +262,6 @@
 
 /* Mobile 2 */
 @media (max-width: 375px) {
-  .container-header {
-      padding: 5px;
-  }
 
   .logo {
       font-size: 18px;

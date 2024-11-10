@@ -61,14 +61,6 @@
     padding: 20px 0;
   }
   
-  .container-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
-  }
-  
   .logo {
     text-align: left;
     color: #ffffff;
@@ -149,3 +141,57 @@
   }
   
   /*//////////////////////// Fin Estilos del Main ////////////////////////////////////////////////*/
+
+  @media (max-width: 1080px) {
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar p{
+        text-align: center;
+    }
+}
+/* Tablet vertical */
+@media (max-width: 768px) {
+
+
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
+      
+    .footer-left{
+      width: 150px;  /* Ancho reducido en móviles pequeños */
+      height: 150px; /* Altura reducida en móviles pequeños */
+}
+.footer-middle, .footer-right {
+    margin: auto;
+    text-align: center;
+}
+
+.footer-copyright {
+    font-size: 10px;
+    padding: 5px;
+}
+
+.container-footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav ul {
+    flex-direction: column;
+    gap: 8px;
+}
+
+}
+/* Mobil 1 */
+@media (max-width: 480px) {
+
+}
+/* Mobil 2 */
+@media (max-width: 375px) {
+
+}
