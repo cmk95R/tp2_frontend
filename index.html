@@ -4,24 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/headerFooter.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <p>TIENDA DE CAFE</p>
-            <div class="links">
-                <a href="">Nuestro Cafe</a>
-                <a href="">Tutoriales</a>
-                <a href="">Locales</a>
-                <a href="">Nuestro Menu</a>
-                <a href="">Trabaja con Nosotros</a>
-                <a href="">Franquicias</a>
-                <a href="">Contacto</a>
-            </div>
-        </div>
-    </header>
+<!-- Header -->
+<header>
+    <div class="container-header">
+      <div class="logo">
+        <a>Tienda </a>
+        <a>de cafe</a>
+      </div>
+      <div class="nav">
+        <ul>
+            <li><a href="tienda.html">Nuestro Cafe</a></li>
+            <li><a href="tutoriales.html">Tutoriales</a></li>
+            <li><a href="#">Locales</a></li>
+            <li><a href="">Nuestro Menu</a></li>
+            <li><a href="trabajaTDC.html">Trabaja con Nosotros</a></li>
+            <li><a href="franquicias.html">Franquicias</a></li>
+            <li><a href="cantacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="spacer"></div>
+    </div>
+  </header>
+
     <body>
 
         <section class="contenedor-Carrousel">
@@ -32,7 +41,6 @@
                 <p>Encontra tu Tienda mas cercana y tentate con nuestros sabores</p>
                 <input type="submit" value="ENCONTRANOS">
             </div>
-            <div class="contenedor-Vacio"></div>
         </section>
 
         
@@ -129,52 +137,46 @@
             <input type="submit" value="INGRESAR">
         </section>
     </body>
-    <footer>
-        <section class="contenedor-Footer">
-        <div class="contenedor-Contacto">
-            <div class="titulo">
-                <h1>TIENDA DE CAFE</h1>
-            </div>
-                <div class="soporte">
-                    <ul>
-                        <li><h5>CONTENIDOS</h5></li>
-                        <li><a href="">Inicio</a></li>
-                        <li><a href="">Nuestro Cafe</a></li>
-                        <li><a href="">Locales</a></li>
-                        <li><a href="">Nuestro menu</a></li>
-                    </ul>
-                </div>
-                <div class="soporte">
-                    <ul>
-                        <li><h5>NECESITAS AYUDA</h5></li>
-                        <li><a href="">Tutoriales</a></li>
-                        <li><a href="">Trabaja en TDC</a></li>
-                        <li><a href="">Franquicias</a></li>
-                        <li><a href="">Contacto</a></li>
-                    </ul>
-                </div>
-            <div class="contacto">
-                <h5>SUSCRIBETE A NUESTRO NEWSLETTER</h5>
-                <div class="email">
-                    <input type="email" placeholder="Tu email">
-                    <button>Suscribirme</button>
-                </div>
-                <h5>CONECTATE CON NOSOTROS</h5>
-                <div class="RRSS">
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                </div>
-                
-            </div>
+  <!-- Footer -->
+  <footer>
+    <div class="container-footer">
+      <div class="footer-left">
+        <a>Tienda </a>
+        <a>de Café</a>
+      </div>
+      <div class="footer-middle">
+        <ul>
+          <p>Contenidos</p>
+          <li>Inicio </li>
+          <li>Nuestro Cafe</li>
+          <li>Locales</li>
+          <li>Nuestro Menu</li>
+        </ul>
+      </div>
+      <div class="footer-middle">
+        <ul>
+          <p>Necesitas Ayuda</p>
+          <li>Tutoriales</li>
+          <li>Trabaja en TDC</li>
+          <li>Franquicias</li>
+          <li>Contacto</li>
+        </ul>
+      </div>
+      <div class="footer-right">
+        <h3>SUSCRIBETE A NUESTRO NEWSLETTER</h3>
+        <input type="text" placeholder="Tu Email">
+        <button type="submit" class="footer-buttom">SUSCRIBIRME</button>
+        
+        <h3>CONECTATE CON NOSOTROS</h3>
+        <div class="iconos">
+          <img src="./img/facebook.png" alt="Logo de Facebook" width="30" height="30">
+          <img src="./img/instagram.png" alt="Logo de Instagram" width="30" height="30">
         </div>
-        <div class="contenedor-Copyright">
-            <div class="copyright">
-                <p>© Copyright 2021 Tienda de café - Todos los derechos reservados.</p>
-                <p>Todos los logos, productos, marcas y nombres aqui utilizados son propiedad registrada.</p>
-            </div>
-            <div class="contenedor-Vacio"></div>
-        </div>
-        </section>
-    </footer>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      &copy; 2024 Drink-in-The-House. Todos los derechos reservados.
+    </div>
+  </footer>
 </body>
 </html>
